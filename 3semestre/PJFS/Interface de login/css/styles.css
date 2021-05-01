@@ -1,0 +1,53 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: rgb(21, 21, 131);
+}
+
+.dataBox {
+    width:450px;
+    margin:auto;
+    border: 6px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 13%;
+    background-color: white;
+}
+
+.dataBox p {
+    font-size: 10px;
+}
+
+:placeholder-shown{
+    font-size: 13px;
+}
+
+.dataBox label {
+    display: block;
+    text-align: left;
+    margin-left:15px;
+    font-weight: bold;
+}
+
+.dataBox input[type="text"], input[type="password"] {
+    width:70%;
+    margin: 10px 0px;
+    padding:5px;
+}
+
+.dataBox input[type="button"] {
+    width:50%;
+    margin: 20px 0px;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid gray;
+    outline: none;
+    cursor: pointer;
+}
+
+.dataBox input[type="button"]:hover {
+    background-color: black;
+    color:white;
+}
