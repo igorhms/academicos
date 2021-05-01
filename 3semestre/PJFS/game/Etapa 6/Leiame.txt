@@ -1,0 +1,4 @@
+Responsável: Igor Humberto Machado da Silva
+Data: 27/04/2021
+Objetivo: 
+	- Implementar a pontuação do jogo
